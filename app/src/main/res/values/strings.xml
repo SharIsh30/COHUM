@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">COHUM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example Genesettings2ings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Examsettings2ings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Examsettings2ings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Invalid email.</string>
+    <string name="error_invalid_password">Password should contain atleast 6 characters.</string>
+    <string name="error_incorrect_password">Incorrect password.</string>
+    <string name="error_field_required">Required field.</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+    <string name="error_user_exists">User already exists.</string>
+    <string name="title_activity_signin">signinActivity</string>
+    <string name="title_activity_google_signin">googleSignin</string>
+
+    <!--tracker-->
+
+    <string name="logout">Logout</string>
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="transport_id" translatable="false">123</string>
+    <string name="firebase_path" translatable="false">locations</string>
+    <string name="firebase_email" translatable="false">ishaan.s349@gmail.com</string>
+    <string name="firebase_password" translatable="false">sharishaan</string>
+    <string name="title_activity_display">Map</string>
+    <string name="switch_child">Switch Child</string>
+
+
+    <string name="invitation_title">COHUM</string>
+    <string name="invitation_message">INVITATION MESSAGE</string>
+    <string name="invitation_deep_link">https://pc58g.app.goo.gl/u9DC</string>
+    <string name="invitation_cta">Share</string>
+    <string name="invitation_custom_image">user.getDisplayName();</string>
+
+    <string name="key_intent_privacy_policy">key_intent_privacy_policy</string>
+    <string name="pPolicy"><![CDATA[<h1>Privacy Policy</h1> <p> COHUM built the COHUM app as a Freemium app. This SERVICE is provided by COHUM at no cost and is intended for use as is.
+                  </p> <p>This page is used to inform the users regarding our policies with the collection, use, and
+                    disclosure of Personal Information if anyone decided to use our Service.
+                  </p> <p>If you choose to use our Service, then you agree to the collection and use of information in relation
+                    to this policy. The Personal Information that we collect is used for providing and improving the
+                    Service. We will not use or share your information with anyone except as described
+                    in this Privacy Policy.
+                  </p> <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible
+                    at COHUM\'s \'Terms &amp; Conditions\' page unless otherwise defined in this Privacy Policy.
+                  </p> <p><strong>Information Collection and Use</strong></p> <p>For a better experience, while using our Service, we may require you to provide us with certain
+                    personally identifiable information, including but not limited to your name, email address, telephone number and your current location. The information that we request is will be retained by us and used as described in this privacy policy.
+                  </p> <p>The app does use third party services that may collect information used to identify you.</p> <div><p>Link to privacy policy of third party service providers used by the app</p> <ul><li><a href=\"https://www.google.com/policies/privacy/\">Google Play Services</a></li><li><a href=\"https://fabric.io/privacy\">Fabric</a></li> <li><a href=\"http://try.crashlytics.com/terms/privacy-policy.pdf\">Crashlytics</a></li></ul></div> <p><strong>Log Data</strong></p> <p> We want to inform you that whenever you use our Service, in a case of an
+                    error in the app we collect data and information (through third party products) on your phone
+                    called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address,
+                    device name, operating system version, the configuration of the app when utilizing our Service,
+                    the time and date of your use of the Service, and other statistics.
+                  </p> <p><strong>Cookies</strong></p> <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These
+                    are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.
+                  </p> <p>This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries
+                    that use “cookies” to collect information and improve their services. You have the option to either
+                    accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to
+                    refuse our cookies, you may not be able to use some portions of this Service.
+                  </p> <p><strong>Service Providers</strong></p> <p> We may employ third-party companies and individuals due to the following reasons:</p> <ul><li>To facilitate our Service;</li> <li>To provide the Service on our behalf;</li> <li>To perform Service-related services; or</li> <li>To assist us in analyzing how our Service is used.</li></ul> <p> We want to inform users of this Service that these third parties have access to your
+                    Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they
+                    are obligated not to disclose or use the information for any other purpose.
+                  </p> <p><strong>Security</strong></p> <p> We value your trust in providing us your Personal Information, thus we are striving
+                    to use commercially acceptable means of protecting it. But remember that no method of transmission over
+                    the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee
+                    its absolute security.
+                  </p> <p><strong>Links to Other Sites</strong></p> <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed
+                    to that site. Note that these external sites are not operated by us. Therefore, we strongly
+                    advise you to review the Privacy Policy of these websites. We have no control over
+                    and assume no responsibility for the content, privacy policies, or practices of any third-party sites
+                    or services.
+                  </p> <p><strong>Children’s Privacy</strong></p> <p>These Services also address anyone under the age of 13. We do collect
+                    personally identifiable information from children under 13 in accordance to the overall working of the application. If you are a parent or guardian and you are anxious about the personal information of your child, please contact us so that we will be able to do necessary actions.
+                  </p> <p><strong>Changes to This Privacy Policy</strong></p> <p> We may update our Privacy Policy from time to time. Thus, you are advised to review
+                    this page periodically for any changes. We will notify you of any changes by posting
+                    the new Privacy Policy on this page. These changes are effective immediately after they are posted on
+                    this page.
+                  </p> <p><strong>Contact Us</strong></p> <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact
+                    us via the link present in the navigation drawer or by sending a mail to one of the developers by using the \'Help &amp; Feedback\' option present in the same.</p>]]></string>
+
+    <string name="key_t_and_c">key_t_and_c</string>
+    <string name="TandC"><![CDATA[<h1>Terms &amp; Conditions</h1> <p>By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to COHUM.</p> <p>COHUM is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.</p> <p>The COHUM app stores and processes personal data that you have provided to us, in order to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the COHUM app won’t work properly or at all. </p> <p>You should be aware that there are certain things that COHUM will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but COHUM cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.</p><p></p><p>If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.</p> <p>Along the same lines, COHUM cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, COHUM cannot accept responsibility</p> <p>With respect to COHUM’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. COHUM accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</p> <p>At some point, we may wish to update the app. The app is currently available on Android – the requirements for both systems (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. COHUM does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</p> <p><strong>Changes to This Terms and Conditions</strong></p> <p> We may update our Terms and Conditions from time to time. Thus, you are advised to review
+                      this page periodically for any changes. We will notify you of any changes by posting
+                      the new Terms and Conditions on this page. These changes are effective immediately after they are posted on
+                      this page.
+                    </p> <p><strong>Contact Us</strong></p> <p>If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact
+                      us via the link present in the navigation drawer or by sending a mail to one of the developers by using the \'Help &amp; Feedback\' option present in the same.</p>]]></string>
+
+    <string name="key_help_geofence">key_help_geofence</string>
+    <string name="help_geofence"><![CDATA[<h2>Geofence Help</h2>
+    <p><strong>Note:</strong> You need to add members in your account in order to see the following, in case you do not have members added, you will simply see the geofence that is created for you or an error saying you do not have any geofences created for you.</p>
+<p><strong>Geofencing starting view</strong></p>
+<p>The geofencing option launches the map and shows a list of all the current members that you have added to your account.</p>
+<img src=\"geo_1.jpg\">
+<p>The last-known location of the chosen member is then shown using a purple marker. If you did create a geofence for the chosen member before, it will be shown as well. The center of this geofence is the blue marker and the shaded area is the geofence.</p>
+<img src=\"geo_2.jpg\">
+<p><strong>Creating a new geofence</strong></p>
+<p>For creating a new geofence, follow these steps</p>
+	<ul>
+		<li> Drop a marker onto the map.This marker is green and is the center of the new geofence.</li><p><img src=\"geo_3.jpg\"></p>
+		<li> Now, you need to click on the \'Create geofence\' option present in the dropdown menu that is present in the top right corner. Then enter the radius of the geofence in meters.</li><p><img src=\"geo_4.jpg\"></p>
+		<li> New geofence is created.</li><p><img src=\"geo_5.jpg\"></p>
+	</ul>
+<p><strong>Alerts generated by the member</strong></p>
+<p>Following conditions generate alerts</p>
+	<ol>
+		<li> Member enters the geofence.</li><p><img src=\"geo_6.jpg\"></p>
+		<li> Member exits the geofence.</li><p><img src=\"geo_7.jpg\"></p>
+		<li> Member is either outside the geofence or hasn\'t started the geofence activity yet.</li><p><img src=\"geo_8.jpg\"></p>
+	</ol>
+<p>In the last condition, you can click on the notification and track the member.</p>
+<p><strong>Clear geofence</strong></p>
+<p>Clicking on the \'Clear geofence\' option present in the dropdown menu will clear the geofence that you created for the current user.</p><img src=\"geo_9.jpg\">
+
+</p> <p><strong>Contact Us</strong></p> <p>If you have any questions or suggestions about this application, do not hesitate to contact
+us via the link present in the navigation drawer or by sending a mail to one of the developers by using the \'Help &amp; Feedback\' option present in the same.</p>]]></string>
+
+    <string name="key_help_tracking">key_help_tracking</string>
+    <string name="help_tracking"><![CDATA[<h2>Tracking Help</h2>
+<p><strong>Tracking starting view</strong></p>
+<p>The tracking option launches a screen with 2 buttons.</p>
+<p><img src=\"track_1.jpg\"></p>
+<ul>
+<li> The first button launches the tracking service which transmits your location to the database.</li>
+<li> The second button launches the map that displays the real time location of all the members that are added by you.</li>
+</ul>
+<p><strong>Tracking activity</strong></p>
+<p>This service continuously transmits your current location to the database at a set frequency.  The frequency of the transmission can be changed in the settings. Along with this, it also creates and displays a notification that stops the transmission when it is clicked.</p>
+<img src=\"track_2.jpg\">
+<p><strong>Track activity</strong></p>
+<p>This activity displays the map that shows the real time location of all the members under you. It has a button at the bottom of the screen that cycles through all the added members on click.</p>
+<img src=\"track_3.jpg\">
+
+<p><strong>Note</strong></p>
+<p>Kindly wait until you see the folowing screen before you click on the button.</p><img src=\"track_4.jpg\">
+
+</p> <p><strong>Contact Us</strong></p> <p>If you have any questions or suggestions about this application, do not hesitate to contact
+    us via the link present in the navigation drawer or by sending a mail to one of the developers by using the \'Help &amp; Feedback\' option present in the same.</p>]]></string>
+    <string name="key_about_us">key_about_us</string>
+</resources>

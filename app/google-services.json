@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "495999851991",
+    "firebase_url": "https://cohum-47d9c.firebaseio.com",
+    "project_id": "cohum-47d9c",
+    "storage_bucket": "cohum-47d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495999851991:android:cf85128bbafccf1a",
+        "android_client_info": {
+          "package_name": "com.ishaan.cohum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495999851991-9ndc4mjlt271em1e0teonqvdrtshict5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ishaan.cohum",
+            "certificate_hash": "c242862974ff5cdabbbb2cccfac982c2bd39858a"
+          }
+        },
+        {
+          "client_id": "495999851991-49tr7d7rkm0a0vfo6ciiq764dqffrft1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhefe_9e62OTHoU7Z1Bv6XonXt_794OXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495999851991-49tr7d7rkm0a0vfo6ciiq764dqffrft1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/geoUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select User:" />
+
+    <EditText
+        android:id="@+id/geo_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+
+    <TextView
+        android:id="@+id/geoCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geofence center:" />
+
+    <EditText
+        android:id="@+id/geo_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/geoRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Geofence radius:" />
+
+    <EditText
+        android:id="@+id/geo_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="In Meters."
+        android:inputType="number" />
+
+</LinearLayout>

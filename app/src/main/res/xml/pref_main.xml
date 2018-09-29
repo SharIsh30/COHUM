@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/title_upload_freq"
+            android:entries="@array/pref_upload_freq_entries"
+            android:entryValues="@array/pref_upload_freq_values"
+            android:key="@string/key_upload_freq"
+            android:summary="@string/summary_upload_freq"
+            android:title="@string/title_upload_freq" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_notifications">
+
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="@string/key_notifications_new_ringtone"
+            android:key="@string/key_notifications_new_ringtone"
+            android:ringtoneType="notification"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+        <SwitchPreference
+            android:key="@string/key_vibrate"
+            android:summary="@string/summary_vibrate"
+            android:title="@string/title_vibrate" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:key="@string/app_version"
+            android:title="@string/title_version" />
+
+        <!-- preference opens url in browser -->
+
+        <Preference
+            android:key="@string/key_intent_privacy_policy"
+            android:title="@string/privacy_policy" />
+
+        <Preference
+            android:key="@string/key_t_and_c"
+            android:title="@string/title_terms" />
+    </PreferenceCategory>
+</PreferenceScreen>

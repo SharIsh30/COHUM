@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/upperGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_user"
+            android:title="User Info" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_subject"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add"
+            android:title="Add Member" />
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/ic_delete_user"
+            android:title="Delete Member" />
+    </group>
+
+    <group android:id="@+id/lowerGroup">
+        <!--<item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Share app" />-->
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_share"
+            android:title="About COHUM" />
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_about"
+            android:title="Connect with us" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_help_feedback"
+            android:title="Help &amp; feedback" />
+    </group>
+
+    <group android:id="@+id/logout">
+        <item
+            android:id="@id/logout"
+            android:icon="@drawable/ic_logout"
+            android:onClick="logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
